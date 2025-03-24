@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>COGS202: Computational Modeling of Cognition</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    header, section, footer { margin-bottom: 30px; }
+    h1, h2, h3 { color: #333; }
+    nav ul { list-style: none; padding: 0; }
+    nav li { display: inline; margin-right: 15px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background-color: #f2f2f2; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>COGS202: Computational Modeling of Cognition</h1>
+    <p><strong>Instructor:</strong> Meenakshi Khosla</p>
+    <p><strong>Meeting Time &amp; Location:</strong> Mondays 9:00-11:50 AM in CSB 003</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#course-info">Course Info</a></li>
+      <li><a href="#learning-objectives">Learning Objectives</a></li>
+      <li><a href="#course-structure">Course Structure</a></li>
+      <li><a href="#final-project">Final Project</a></li>
+      <li><a href="#lecture-schedule">Lecture Schedule</a></li>
+      <li><a href="#hosting">Hosting Instructions</a></li>
+    </ul>
+  </nav>
+
+  <section id="course-info">
+    <h2>Course Description</h2>
+    <p>This course surveys key methods and practices of computational modeling across a range of cognitive science fields. Bringing together basic tools of machine learning, AI, computational neuroscience, and probabilistic modeling, students will learn to use quantitative modeling to fit data, formulate hypotheses, and explain cognitive phenomena.</p>
+  </section>
+
+  <section id="learning-objectives">
+    <h2>Learning Objectives</h2>
+    <ul>
+      <li>Read, comprehend, and critically evaluate primary research literature in computational cognitive science.</li>
+      <li>Identify different levels and styles of computational models.</li>
+      <li>Compare and contrast alternative computational modeling approaches.</li>
+      <li>Assess the strengths and potential pitfalls of computational models.</li>
+      <li>Design and implement computational modeling projects relevant to your own research questions within the cognitive sciences.</li>
+    </ul>
+  </section>
+
+  <section id="course-structure">
+    <h2>Materials and Course Structure</h2>
+    <p>Each week will focus on a selected topic in computational modeling of cognition, representing a (biased) cross-section of key topics and modeling styles. Readings include 3-4 classic or contemporary research articles (or review articles) related to the topic.</p>
+    <p>Homework problems will give you practice with the basic concepts. Although students are encouraged to work in groups, each student should write up their own solutions. There will also be a final project to be completed in teams.</p>
+    <h3>Grading Breakdown:</h3>
+    <ul>
+      <li>Attendance and participation: 5%</li>
+      <li>Homework (3 problem sets, 15% each): 45% total</li>
+      <li>Paper presentation: 20%</li>
+      <li>Final project: 30%</li>
+    </ul>
+  </section>
+
+  <section id="final-project">
+    <h2>Final Project Guidelines</h2>
+    <ul>
+      <li><strong>Presentation:</strong> In class on Week 10, Friday, June 8</li>
+      <li><strong>Team Formation:</strong> Work in groups of 2-3 students. (<a href="[link]">Google Sheet for project ideas and group formation</a>)</li>
+      <li><strong>Proposal:</strong> A 1-page proposal is due May 18. It should list team members, the topic/tentative title, and 1-2 paragraphs outlining your initial project approach.</li>
+      <li><strong>Final Report:</strong> Due together with your presentation on June 8. The report should be roughly 5-10 pages (including references and figures).</li>
+      <li><strong>Project Requirements:</strong> The project must include some computational work (e.g., simulations, calculations, or computational analysis of experimental data) and deliver specific, concrete predictions for an experimental test of the theory.</li>
+      <li><strong>Format Options:</strong>
+        <ul>
+          <li>Develop a computational model or analysis using your own research data.</li>
+          <li>Reproduce and extend a result from one of the research papers discussed in class.</li>
+          <li>Develop a grant proposal including preliminary simulation or computational analysis.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section id="lecture-schedule">
+    <h2>Tentative Lecture Schedule</h2>
+    <table>
+      <tr>
+        <th>Week</th>
+        <th>Date</th>
+        <th>Topic</th>
+        <th>Readings for Presentation</th>
+      </tr>
+      <tr>
+        <td>Week 1</td>
+        <td>March 31</td>
+        <td>Introduction to computational models of cognition</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Week 2 (GLMs)</td>
+        <td>April 7</td>
+        <td>Statistical framework for modeling brain/behavioral data (GLMs)</td>
+        <td>
+          <ul>
+            <li>Marr Vision</li>
+            <li><a href="https://cims.nyu.edu/~brenden/papers/LakeEtAl2017BBS.pdf">Building machines that learn and think like people</a></li>
+            <li><a href="https://journals.sagepub.com/doi/full/10.1177/17456916231201401">What children can do that LLMs and LVMs cannot</a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Week 3</td>
+        <td>April 14</td>
+        <td>Neural Networks/Deep Learning</td>
+        <td>
+          <ul>
+            <li>Using ANNs to answer why questions about minds and brains</li>
+            <li>NeuroAI Turing Test: Marblestone, Wayne, Kording - <a href="http://biorxiv.org/content/early/2016/08/22/058545">Towards an integration of deep learning and neuroscience</a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Week 4</td>
+        <td>April 21</td>
+        <td>Neural Networks / Deep Learning</td>
+        <td>
+          <ul>
+            <li><a href="https://arxiv.org/pdf/1608.02164">Adapting deep neural networks to capture psychological representations</a></li>
+            <li><a href="https://collaborate.princeton.edu/en/publications/evaluating-and-improving-the-correspondence-between-deep-neural-n">Evaluating (and Improving) the Correspondence Between Deep Neural Networks and Human Representations</a></li>
+            <li><a href="https://www.pnas.org/doi/abs/10.1073/pnas.2220642120">Behavioral signatures of face perception in DNNs</a></li>
+            <li><a href="https://www.nature.com/articles/s41467-021-22078-3">Qualitative similarities and differences in visual object representations between brains and DNNs</a></li>
+            <li><a href="https://www.nature.com/articles/s41562-021-01244-z">DNN models of sound localization</a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Week 5</td>
+        <td>April 28</td>
+        <td>LLMs and Language Processing</td>
+        <td>
+          <ul>
+            <li><a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00027-5">Dissociating language and thought</a></li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/38669478/">Language in brains, minds and machines</a></li>
+            <li>Grounded language acquisition through the eyes and ears of a single child</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Week 6</td>
+        <td>May 5</td>
+        <td>LLMs and Other Cognition</td>
+        <td>
+          <ul>
+            <li><a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/cogs.13309">Do LLMs know what humans know?</a></li>
+            <li><a href="https://www.nature.com/articles/s41562-023-01659-w">Emergent analogical reasoning in large language models</a></li>
+            <li><a href="https://arxiv.org/pdf/2111.15366">AI and the everything in the whole wide world benchmark</a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Week 7</td>
+        <td>May 12</td>
+        <td>Probabilistic Models</td>
+        <td>
+          <ul>
+            <li><a href="https://www.science.org/doi/full/10.1126/sciadv.aax5979">Efficient inverse graphics in biological face processing</a></li>
+            <li><a href="https://www.sciencedirect.com/science/article/pii/S0896627309006850">Bayesian reconstruction</a></li>
+            <li>How to Grow a Mind: Statistics, Structure, and Abstraction</li>
+            <li><a href="https://pubmed.ncbi.nlm.nih.gov/20576465/">Probabilistic models of cognition</a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Week 8</td>
+        <td>May 19</td>
+        <td>Reinforcement Learning</td>
+        <td>
+          <ul>
+            <li><a href="https://www.princeton.edu/~yael/Publications/Niv2009.pdf">RL in the brain</a></li>
+            <li>Matching behavior and the representation of value in the parietal cortex</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>Week 9</td>
+        <td>May 26</td>
+        <td>Memorial Day Holiday</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Week 10</td>
+        <td>June 8 (Friday)</td>
+        <td>Final Project Presentations</td>
+        <td>-</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="hosting">
+    <h2>How to Host This Website on GitHub Pages</h2>
+    <ol>
+      <li>Create a new repository on GitHub (for example, <code>cogs202-website</code>).</li>
+      <li>Add your <code>index.html</code> file (with the code provided above) to the repository.</li>
+      <li>Commit and push your changes to GitHub.</li>
+      <li>Go to the repository's <em>Settings</em>, scroll down to the GitHub Pages section, and select the branch (typically <code>main</code>) as the source. Then click <em>Save</em>.</li>
+      <li>Your website will be available at <code>https://&lt;your-username&gt;.github.io/cogs202-website/</code> (it may take a few minutes to become active).</li>
+    </ol>
+    <p>For more details, refer to the <a href="https://docs.github.com/en/pages/getting-started-with-github-pages">GitHub Pages documentation</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 COGS202. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
